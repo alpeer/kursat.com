@@ -1,0 +1,45 @@
+personelInformation: {
+    address: "İstanbul, Türkiye",
+    age: new Date().getFullYear() - 1993,
+    company: "Ziraat Teknoloji",
+    image: "http://previews.aspirity.com/spirit/assets/img/img_avatar.png",
+    job: "frontend developer",
+    mail: "iletisim@omergulcicek.com",
+    name: "Ömer Gülçiçek",
+    phone: "0(554) 350 98 06"
+}
+
+<section>
+    <div className="personelInformation">
+        <div className="container">
+            <div className="flex">
+                <div className="image b4">
+                    <img src={image} alt="resim" />
+                </div>
+                <div className="ck12 b8">
+                    <h1>{name}</h1>
+                    <h4>{job} at {company}</h4>
+
+                    <dl>
+                        <dt>Age:</dt>
+                        <dd>{age}</dd>
+                        <dt>Phone:</dt>
+                        <dd>
+                            <a href={"tel:+9" + phone.replace(/ /g, "").replace("(", "").replace(")", "")}>{phone}</a>
+                        </dd>
+                        <dt>Email:</dt>
+                        <dd>
+                            <a href={"mailto:" + mail}>{mail}</a>
+                        </dd>
+                        <dt>Address:</dt>
+                        <dd>
+                            <address>{address}</address>
+                        </dd>
+                    </dl>
+
+                    {social}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
