@@ -18,7 +18,7 @@ export default class KisiselBilgiler extends Component {
                             </div>
                             <div className="ck12 b8">
                                 <h1>{name}</h1>
-                                <h4>{company}'de {job}</h4>
+                                <h4>{company}de {job}</h4>
 
                                 <dl>
                                 {
