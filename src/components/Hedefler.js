@@ -30,7 +30,7 @@ export default class Hedefler extends Component {
                             <div className="ck12 o6">
                                 <h2>Hedefler</h2>
                                 <p>
-
+                                    Şu anda { new Date().getFullYear() - 1993 } yaşındayım. Hedeflerim arasında 30 yaşına girene kadar aşağıdaki 30 maddeyi tamamlamak var. Altı çizili maddelere tıklayarak detayları görebilirsiniz.
                                 </p>
 
                                 <ul>
@@ -40,7 +40,7 @@ export default class Hedefler extends Component {
                             <div className="ck12 o6">
                                 <h2>Yazılım Hedefleri</h2>
                                 <p>
-                                
+                                    Frontend Developer'ım ve kariyerimi bu yönde devam ettirmek istiyorum. Aşağıdaki maddelerde çeşitli yazılımsal hedeflerim bulunmaktadır. Listeye sürekli eklemeler olacaktır.
                                 </p>
 
                                 <ul>

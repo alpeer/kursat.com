@@ -1,4 +1,5 @@
 import React, { Component }     from "react";
+import CV                       from "./../cv.pdf";
 
 export default class Hakkinda extends Component {
     render() {
@@ -12,7 +13,7 @@ export default class Hakkinda extends Component {
                                 <h2>{ hakkindaBaslik }</h2>
                                 { hakkinda.map((p, i) => <p key={i}>{p}</p> ) }
 
-                                <a className="buton" target="_blank" rel="noopener noreferrer">{cvButon}</a>
+                                <a href={CV} className="buton" target="_blank" rel="noopener noreferrer">{cvButon}</a>
                             </div>
                         </div>
                     </div>

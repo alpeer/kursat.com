@@ -7,7 +7,7 @@ export default class Footer extends Component {
             <footer>
                 <div className="container">
                     <p>
-                        Copyright © {new Date().getFullYear()}
+                        Copyright © {new Date().getFullYear()} | Ömer Gülçiçek
                     </p>
                     <span>
                         Son Güncellenme Tarihi: { sonGuncellenmeTarihi }

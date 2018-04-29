@@ -11,6 +11,7 @@ export default class Header extends Component {
                         <div className="container">
                             <NavLink exact to="/" onClick={mobilMenu}>ana sayfa</NavLink>
                             <NavLink to="/hedefler" onClick={mobilMenu}>hedefler</NavLink>
+                            <NavLink to="/referanslar" onClick={mobilMenu}>referanslar</NavLink>
                             <NavLink to="/iletisim" onClick={mobilMenu}>İletİşİm</NavLink>
                         </div>
                     </nav>
