@@ -1,3 +1,20 @@
+
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Nunito Regular"), local("Nunito-Regular"), url(fonts/Nunito.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Nunito Regular"), local("Nunito-Regular"), url(fonts/Nunito2.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 * {
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
@@ -321,64 +338,48 @@ details summary::-webkit-details-marker {
 }
 
 .referans {
-    border: 1px solid rgba(0, 0, 0, .1);
-    border-radius: 5px;
-    height: 264px;
-    margin-bottom: 16px;
-    overflow: hidden;
+    border-radius: 10px;
+    padding: 40px 24px 16px 24px;
     position: relative;
+    transition: .3s
 }
 
-.referans .yil {
+.referans:hover {
+    padding-top: 24px;
+}
+
+.referans h4 {
+    color: #555;
+    margin: 0 0 8px 0;
+}
+
+.referans .tarih {
     background-image: linear-gradient(54deg, rgba(74,76,179,.95) 34%, hsla(0,34%,71%,.95));
     border-radius: 100px;
     color: #FFF;
     font-size: 14px;
     padding: 8px;
     position: absolute;
-    right: 16px;
-    top: 16px;
-    z-index: 1
-}
-
-.referans .yil span {
-    display: none;
-}
-
-.referans:hover .yil span {
-    display: inline-block;
-}
-
-.referans .resim {
-    height: 176px;
-    position: relative;
+    right: 24px;
+    top: 24px;
     transition: .3s
 }
 
-.referans:hover .resim {
-    height: 64px;
-    overflow: hidden;
+.referans:hover .tarih {
+    right: 16px;
+    top: 16px;
 }
 
-.referans .resim img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+.referans:hover img {
+    filter: none;
 }
 
-.referans:hover .resim img {
-    filter: grayscale(100%);
+.referans img {
+    filter: blur(50px);
+    transition: .5s
 }
 
-.referans .aciklama {
-    padding: 16px 24px;
-}
-
-.referans .aciklama h4 {
-    margin: 0 0 8px 0;
-}
-
-.referans .detay img:not(:last-child) {
+.referans img:not(:last-child) {
     margin-right: 8px;
 }
 

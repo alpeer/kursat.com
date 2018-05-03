@@ -43,7 +43,7 @@ export default class OmerGulcicek extends Component {
             hakkinda: [
                 "Şubat 93'te İstanbul Gaziosmanpaşa'da doğdum, aslen Trabzon'luyum. İngilizce hazırlık eğitimi ile başladığım Yazılım Mühendisliği bölümünden 2017 yılında mezun oldum.",
                 "Frontend Developer'ım, bir web sitesini sıfırdan oluşturabiliyorum. Web geliştirmede mevcut en iyi dilleri kullanarak iyi tasarlanmış, temiz ve verimli kod yazma konusunda yetenekliyim. Frontend dünyasının hızlı gelişimine ayak uydurabilen, yeni şeyler öğrenmeyi ve öğretmeyi seven, çalışkan bir takım oyuncusuyum.",
-                "HTML5, CSS3, SASS, JavaScript, jQuery, JSON, AJAX, React, Router, Gulp, Kendo UI, Bootstrap, Semantic UI, Materialize CSS'te tecrübem var.",
+                "HTML5, CSS3, SASS, JavaScript, ES6, jQuery, JSON, AJAX, React, React Router, Gulp, TFS, Kendo UI, Bootstrap, Semantic UI, Materialize CSS ve Turkuaz CSS'te tecrübem var.",
                 "Projeler ve referanslar linklerinden daha önce yapmış olduğum çalışmaları inceleyebilir; freelance işler için iletişim sayfasından detaylı bilgiye ulaşabilirsiniz. İletişim için e-posta'yı tercih edin. (Genellikle gün içerisinde dönüş yapıyorum.)",
                 "Hayallerimin ve hedeflerimin arkasından koşmaya devam edeceğim. Sevdiğim işi yapıyorum, bu sayede hayatımın sonuna kadar bir gün bile çalışmam gerekmiyor; tutkunuzu bulun ve işiniz iş olmaktan çıksın.",
                 "Detaylı ve güncel özgeçmişim için aşağıdaki butonu kullanabilirsiniz.",
@@ -243,25 +243,42 @@ export default class OmerGulcicek extends Component {
             ],
             referanslar: [
                 {
+                    ad: "Ömer Gülçiçek",
+                    link: "https://github.com/omergulcicek/omergulcicek.com/",
+                    aciklama: "Kişisel sitemin kaynak kodları",
+                    tarih: "Nisan 2018",
+                    teknolojiler: ["React", "Router"]
+                },
+                {
+                    ad: "Türkçe Doküman",
+                    link: "https://turkcedokuman.com/",
+                    aciklama: "Türkçe Dokümanların toplandığı site",
+                    tarih: "Nisan 2018",
+                    teknolojiler: ["React", "Turkuaz Css"]
+                },
+                {
                     ad: "Yeşilçam Sokağı",
                     link: "https://yesilcamsokagi.com.tr/",
                     aciklama: "Yeşilçam'ın izlerini taşıyan harika konseptli kafeler",
-                    resim: "http://cdn2.tstatic.net/tribunnews/foto/bank/images/kafe-batan-waru-di-ubud-bali_20170306_130951.jpg",
-                    ay: "Mayıs",
-                    yil: 2018,
-                    teknolojiler: ["HTML", "CSS", "JavaScript", "Turkuaz Css"]
+                    tarih: "Mayıs 2018",
+                    teknolojiler: ["jQuery", "Owl Carousel", "Turkuaz Css"]
                 },
                 {
                     ad: "Toroslar Kapitone",
                     link: "https://toroslarkapitone.com/",
                     aciklama: "İstanbul'un en kaliteli, büyük ve köklü kapitone fabrikası",
-                    resim: "http://www.teksmomak.com/wp-content/uploads/2016/09/IMG-20160825-WA0006.jpg",
-                    ay: "Eylül",
-                    yil: 2017,
-                    teknolojiler: ["HTML", "CSS", "jQuery", "Materialize"]
+                    tarih: "Eylül 2017",
+                    teknolojiler: ["jQuery", "Owl Carousel", "Materialize"]
+                },
+                {
+                    ad: "Turkuaz Css",
+                    link: "https://turkuazcss.com/",
+                    aciklama: "Daha hızlı ve kolay web sayfaları geliştirmek için tasarlanan güçlü bir Framework",
+                    tarih: "Nisan 2016",
+                    teknolojiler: ["React", "Router", "Turkuaz Css"]
                 }
             ],
-            sonGuncellenmeTarihi: "28 Nisan 2018"
+            sonGuncellenmeTarihi: "4 Mayıs 2018"
         }
         this.mobilMenu = this.mobilMenu.bind(this);
     }
