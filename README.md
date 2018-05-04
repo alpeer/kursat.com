@@ -1,8 +1,12 @@
-# omergulcicek.com Kaynak Kodlar
+# omergulcicek.com Kaynak Kodları
 
 Kişisel sitemin kaynak kodlarını open source olarak geliştiriyorum, beğenen istediği gibi kullanabilir.
 
 Sitenin çalışır halini <a href="https://omergulcicek.com">omergulcicek.com</a>'dan inceleyebilirsiniz.
+
+React ve React Router bilginizin yetersiz olduğunu düşünüyorsanız <a href="https://turkcedokuman.com/">Türkçe Doküman</a> sitesinden ilgili dokümanlara ulaşabilirsiniz. 
+
+---
 
 <a href="https://github.com/facebook/create-react-app">create-react-app</a> kullanılarak geliştirilmiştir. Ek olarak sadece <a href="https://reacttraining.com/react-router/">react-router-dom</a> kullanılmıştır.
 
@@ -39,6 +43,8 @@ Site ilk çalıştığında **src/index.js**'de `<OmerGulcicek />` componentini 
 Değiştirmek istiyorsanız bu kısımları değiştirebilirsiniz.
 
 Site içeriği **src/OmerGulcicek.js**'de **state** içerisindedir, şunlar bulunmaktadır:
+
+---
 
 * `aciklamaListesi`   -> Her sayfada görülen kişisel bilgileri içerir.
 						Bu diziye istediğiniz kadar obje ekleyip, çıkartabilirsiniz.
