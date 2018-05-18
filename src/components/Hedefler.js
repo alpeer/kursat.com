@@ -4,8 +4,8 @@ export default class Hedefler extends Component {
     render() {
         const { hedefler, hedeflerYazilim } = this.props;
         const hedeflerListesi = hedefler.map(function(e, i) {
-            if (e.yapildiMi && typeof(e.detay) === "string") {
-                return <details key={i} className="bitti link"><summary>{ e.hedef }</summary><p>{e.detay}</p></details>
+            if (e.detay) {
+                return <details key={i} className="bitti link"><summary>{ e.hedef }</summary><p dangerouslySetInnerHTML={{__html: e.detay}}></p></details>
             }
             else if (e.yapildiMi) {
                 return <li key={i} className="bitti"> { e.hedef } </li>
@@ -15,7 +15,10 @@ export default class Hedefler extends Component {
             }
         })
         const hedeflerYazilimListesi = hedeflerYazilim.map(function(e, i) {
-            if (e.yapildiMi) {
+            if (e.detay) {
+                return <details key={i} className="bitti link"><summary>{ e.hedef }</summary><p dangerouslySetInnerHTML={{__html: e.detay}}></p></details>
+            }
+            else if (e.yapildiMi) {
                 return <li key={i} className="bitti"> { e.hedef } </li>
             }
             else {

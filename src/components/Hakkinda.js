@@ -11,7 +11,7 @@ export default class Hakkinda extends Component {
                         <div className="flex">
                             <div className="ck12">
                                 <h2>{ hakkindaBaslik }</h2>
-                                { hakkinda.map((p, i) => <p key={i}>{p}</p> ) }
+                                { hakkinda.map((p, i) => <p key={i} dangerouslySetInnerHTML={{__html: p}}></p> ) }
 
                                 <a href={CV} className="buton" target="_blank" rel="noopener noreferrer">{cvButon}</a>
                             </div>

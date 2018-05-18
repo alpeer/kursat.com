@@ -11,7 +11,7 @@ export default class Iletisim extends Component {
                             <div className="ck12">
                                 <h2>İletişim</h2>
                                 <p>
-                                    Benimle iletişime geçmek için <a href="mailto:iletisim@omergulcicek.com">iletisim@omergulcicek.com</a> adresine mail atabilirsiniz. Gönderdiğiniz mail'e lütfen kısa bir <u>konu başlığı</u> yazınız.
+                                    Benimle iletişime geçmek için <a href="mailto:iletisim@omergulcicek.com">iletisim@omergulcicek.com</a> adresine mail atabilirsiniz. Gönderdiğiniz mail'e lütfen kısa bir <u>konu başlığı</u> yazınız. Telefonla aramak yada WhatsApp'tan ulaşmak yerine mail atmayı tercih edin.
                                 </p>
                                 <p>
                                     Lütfen donanım yada yazılımsal sorunlar için mail atmayınız. Bu tarz sorularınızı google, stackoverflow yada ilgili facebook gruplarına sorarak birçok kişiden yanıt alabilirsiniz.

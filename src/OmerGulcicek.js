@@ -1,5 +1,6 @@
-import React, { Component, Fragment }               from "react";
-import { BrowserRouter as Router, Route, Switch }   from "react-router-dom";
+﻿import React, { Component, Fragment }               from "react";
+import { BrowserRouter, Route, Switch }   from "react-router-dom";
+
 import Header                                       from "./components/Header.js";
 import KisiselBilgiler                              from "./components/KisiselBilgiler.js";
 import SosyalAglar                                  from "./components/SosyalAglar.js";
@@ -13,6 +14,7 @@ import Footer                                       from "./components/Footer.js
 import SayfaYok                                     from "./components/SayfaYok.js";
 import Img                                          from "./img_avatar.png";
 import "./App.css";
+
 
 export default class OmerGulcicek extends Component {
     constructor(props) {
@@ -44,7 +46,7 @@ export default class OmerGulcicek extends Component {
                 "Şubat 93'te İstanbul Gaziosmanpaşa'da doğdum, aslen Trabzon'luyum. İngilizce hazırlık eğitimi ile başladığım Yazılım Mühendisliği bölümünden 2017 yılında mezun oldum.",
                 "Frontend Developer'ım, bir web sitesini sıfırdan oluşturabiliyorum. Web geliştirmede mevcut en iyi dilleri kullanarak iyi tasarlanmış, temiz ve verimli kod yazma konusunda yetenekliyim. Frontend dünyasının hızlı gelişimine ayak uydurabilen, yeni şeyler öğrenmeyi ve öğretmeyi seven, çalışkan bir takım oyuncusuyum.",
                 "HTML5, CSS3, SASS, JavaScript, ES6, jQuery, JSON, AJAX, React, React Router, Gulp, TFS, Kendo UI, Bootstrap, Semantic UI, Materialize CSS ve Turkuaz CSS'te tecrübem var.",
-                "Projeler ve referanslar linklerinden daha önce yapmış olduğum çalışmaları inceleyebilir; freelance işler için iletişim sayfasından detaylı bilgiye ulaşabilirsiniz. İletişim için e-posta'yı tercih edin. (Genellikle gün içerisinde dönüş yapıyorum.)",
+                "Referanslar linkinden daha önce yapmış olduğum çalışmaları inceleyebilir; freelance işler için iletişim sayfasından detaylı bilgiye ulaşabilirsiniz. İletişim için e-posta'yı tercih edin. (<i>Genellikle gün içerisinde dönüş yapıyorum.<i>)",
                 "Hayallerimin ve hedeflerimin arkasından koşmaya devam edeceğim. Sevdiğim işi yapıyorum, bu sayede hayatımın sonuna kadar bir gün bile çalışmam gerekmiyor; tutkunuzu bulun ve işiniz iş olmaktan çıksın.",
                 "Detaylı ve güncel özgeçmişim için aşağıdaki butonu kullanabilirsiniz.",
             ],
@@ -111,8 +113,9 @@ export default class OmerGulcicek extends Component {
                     yapildiMi: false
                 },
                 {
-                    hedef: "Kitap okumak (14/100 tane)",
-                    yapildiMi: false
+                    hedef: "Kitap okumak (13/100)",
+                    yapildiMi: false,
+                    detay: "<ul><li>Abdülhamid'in Kurtlarla Dansı - Mustafa Armağan</li><li>Allah de Ötesini Bırak - Uğur Koşar</li><li>Aşkın Gözyaşları Tebrizli Şems - Sinan Yağmur</li><li>Aşkın Gözyaşları Hz. Mevlâna - Sinan Yağmur</li><li>Aşkın Gözyaşları Hamuş - Sinan Yağmur</li><li>Geleceği Keşfedenler - Walter Isaacson</li><li>Hemdem - Sait Köşk</li><li>Kesintisiz Öğrenme - Mümin Sekman</li><li>Kuşatma 1453 - Okay Tiryakioğlu</li><li>Sadece Aptallar 8 Saat Uyur - Erdal Demirkıran</li><li>Od - İskender Pala</li><li>Piyon - Michael Sikkofield</li><li>Tennure ve Ateş - Sinan Yağmur</li></ul>"
                 },
                 {
                     hedef: "Maraton koşmak",
@@ -206,7 +209,8 @@ export default class OmerGulcicek extends Component {
                 },
                 {
                     hedef: "Türkçe doküman hazırla (4/10)",
-                    yapildiMi: false
+                    yapildiMi: false,
+                    detay: "<ul><li><a href='https://github.com/omergulcicek/css-sass-rehberi' target='_blank' rel='noreferrer noopener'>Css Sass Rehberi</a></li><li><a href='https://github.com/omergulcicek/gulp' target='_blank' rel='noreferrer noopener'>Gulp</a></li><li><a href='https://github.com/omergulcicek/reactjs' target='_blank' rel='noreferrer noopener'>React</a></li><li><a href='https://github.com/omergulcicek/reactrouter' target='_blank' rel='noreferrer noopener'>React Router</a></li></ul>"
                 },
                 {
                     hedef: "Turkuaz Css",
@@ -226,11 +230,17 @@ export default class OmerGulcicek extends Component {
                 },
                 {
                     hedef: "Freelance iş yap (2/25)",
-                    yapildiMi: false
+                    yapildiMi: false,
+                    detay: "<ul><li><a href='https://toroslarkapitone.com/' target='_blank' rel='noreferrer noopener'>toroslarkapitone.com</a></li><li><a href='https://yesilcamsokagi.com.tr/' target='_blank' rel='noreferrer noopener'>yesilcamsokagi.com.tr</a></li></ul>"
                 },
                 {
                     hedef: "Kurumsal bir firmada 1 seneni doldur",
                     yapildiMi: false
+                },
+                {
+                    hedef: "Açık kaynak projelere destek ol (2/10)",
+                    yapildiMi: false,
+                    detay: "<ul><li><a href='https://github.com/bcinarli/uxr' target='_blank' rel='noreferrer noopener'>github.com/bcinarli/uxr</a></li><li><a href='https://github.com/fatihacet/turkcekaynaklar-com' target='_blank' rel='noreferrer noopener'>github.com/fatihacet/turkcekaynaklar</a></li></ul>"
                 },
                 {
                     hedef: "Gençlere kodlama eğitimi ver",
@@ -278,7 +288,7 @@ export default class OmerGulcicek extends Component {
                     teknolojiler: ["React", "Router", "Turkuaz Css"]
                 }
             ],
-            sonGuncellenmeTarihi: "4 Mayıs 2018"
+            sonGuncellenmeTarihi: "18 Mayıs 2018"
         }
         this.mobilMenu = this.mobilMenu.bind(this);
     }
@@ -311,7 +321,7 @@ export default class OmerGulcicek extends Component {
         const { aciklamaListesi, kisiselBilgiler, hakkinda, hakkindaBaslik, hedefler, hedeflerYazilim, referanslar, cvButon, sonGuncellenmeTarihi } = this.state;
 
         return (
-            <Router>
+            <BrowserRouter>
                 <Fragment>
                     <Header onClick={this.mobilMenu} />
                     <main>
@@ -344,7 +354,7 @@ export default class OmerGulcicek extends Component {
                     </main>
                     <Footer sonGuncellenmeTarihi={sonGuncellenmeTarihi} />
                 </Fragment>
-            </Router>
+            </BrowserRouter>
         );
     }
 }
