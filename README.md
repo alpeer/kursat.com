@@ -1,4 +1,10 @@
-# omergulcicek.com Kaynak Kodları
+<p align="center">
+<img src="https://omergulcicek.com/img/omergulcicek.png" alt="Ömer Gülçiçek" height="100">
+</p>
+
+<h1 align="center">omergulcicek.com Kaynak Kod</h1>
+
+<h3><a href="https://omergulcicek.com/">omergulcicek.com</a></h3>
 
 Kişisel sitemin kaynak kodlarını open source olarak geliştiriyorum, beğenen istediği gibi kullanabilir.
 
