@@ -124,4 +124,6 @@ Tasarım olarak <a href="http://previews.aspirity.com/spirit/">aspirity.com</a>'
 
 Yazı stili olarak <a href="https://fonts.google.com/specimen/Nunito">Nunito</a> kullanılmıştır.
 
+---
+
 <i>Takıldığınız yerde yada anlamadığınız kodda iletişime geçebilirsiniz.</i>
