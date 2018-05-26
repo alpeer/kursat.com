@@ -31,8 +31,10 @@ export default class Iletisim extends Component {
                                     Sitenizde kullanılacak olan tüm fotoğraf, video ve yazı içeriklerinden (<i>hakkında yazısı, açıklamalar vb.</i>) siz sorumlusunuz. Bu materyalleri ne kadar kısa sürede hazırlarsanız, sitenin gelişimi o kadar hızlı ve güzel olacaktır.
                                 </p>
                                 <p>
-                                    Ücret bilgisini mail yoluyla tarafınıza ileteceğim. Aklınızda soru işareti kalmaması ve ödemede sorun yaşamamak adına, içerisinde site yapım süreci hakkında detaylı bilgi aktarılan formalite bir sözleşmeyi tarafınıza ileteceğim.
+                                    Ücret bilgisini mail yoluyla tarafınıza ileteceğim. Aklınızda soru işareti kalmaması ve ödemede sorun yaşamamak adına, içerisinde site yapım süreci hakkında detaylı bilgi aktarılan formalite sözleşmeye aşağıdaki butondan ulaşabilirsiniz.
                                 </p>
+                                
+                                <Link to="/sozlesme" className="buton">Sözleşmeyi İncele</Link>
                             </div>
                         </div>
                     </div>

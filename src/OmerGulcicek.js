@@ -1,5 +1,5 @@
 ﻿import React, { Component, Fragment }               from "react";
-import { BrowserRouter, Route, Switch }   from "react-router-dom";
+import { BrowserRouter, Route, Switch }             from "react-router-dom";
 
 import Header                                       from "./components/Header.js";
 import KisiselBilgiler                              from "./components/KisiselBilgiler.js";
@@ -8,6 +8,7 @@ import Hakkinda                                     from "./components/Hakkinda.
 import Hedefler                                     from "./components/Hedefler.js";
 import Projeler                                     from "./components/Projeler.js";
 import Referanslar                                  from "./components/Referanslar.js";
+import Sozlesme                                     from "./components/Sozlesme.js";
 import Blog                                         from "./components/Blog.js";
 import Iletisim                                     from "./components/Iletisim.js";
 import Footer                                       from "./components/Footer.js";
@@ -288,18 +289,21 @@ export default class OmerGulcicek extends Component {
                     teknolojiler: ["React", "Router", "Turkuaz Css"]
                 }
             ],
-            sonGuncellenmeTarihi: "18 Mayıs 2018"
+            sonGuncellenmeTarihi: "27 Mayıs 2018"
         }
         this.mobilMenu = this.mobilMenu.bind(this);
     }
     mobilMenu(e) {
         if (document.body.offsetWidth < 1024) {
             const header = document.getElementsByTagName("header")["0"];
+            const overlay = document.getElementsByClassName("overlay")["0"];
             if (!header.classList.contains("active")) {
                 header.classList.add("active");
+                overlay.classList.add("active");
             }
             else {
                 header.classList.remove("active");
+                overlay.classList.remove("active");
             }
         }
     }
@@ -349,10 +353,12 @@ export default class OmerGulcicek extends Component {
                                 />}/>
                             <Route path="/blog"         component={Blog} />
                             <Route path="/iletisim"     component={Iletisim} />
-                            <Route                            component={SayfaYok} />
+                            <Route path="/sozlesme"     component={Sozlesme} />
+                            <Route                      component={SayfaYok} />
                         </Switch>
                     </main>
                     <Footer sonGuncellenmeTarihi={sonGuncellenmeTarihi} />
+                    <div className="overlay" onClick={this.mobilMenu}></div>
                 </Fragment>
             </BrowserRouter>
         );
