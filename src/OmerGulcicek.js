@@ -230,16 +230,16 @@ export default class OmerGulcicek extends Component {
                     yapildiMi: false
                 },
                 {
-                    hedef: "Freelance iş yap (2/25)",
+                    hedef: "Freelance iş yap (1/25)",
                     yapildiMi: false,
-                    detay: "<ul><li><a href='https://toroslarkapitone.com/' target='_blank' rel='noreferrer noopener'>toroslarkapitone.com</a></li><li><a href='https://yesilcamsokagi.com.tr/' target='_blank' rel='noreferrer noopener'>yesilcamsokagi.com.tr</a></li></ul>"
+                    detay: "<ul><li><a href='https://toroslarkapitone.com/' target='_blank' rel='noreferrer noopener'>toroslarkapitone.com</a></li></ul>"
                 },
                 {
                     hedef: "Kurumsal bir firmada 1 seneni doldur",
                     yapildiMi: false
                 },
                 {
-                    hedef: "Açık kaynak projelere destek ol (2/10)",
+                    hedef: "Açık kaynak projelere destek ol (2/25)",
                     yapildiMi: false,
                     detay: "<ul><li><a href='https://github.com/bcinarli/uxr' target='_blank' rel='noreferrer noopener'>github.com/bcinarli/uxr</a></li><li><a href='https://github.com/fatihacet/turkcekaynaklar-com' target='_blank' rel='noreferrer noopener'>github.com/fatihacet/turkcekaynaklar</a></li></ul>"
                 },
@@ -268,13 +268,6 @@ export default class OmerGulcicek extends Component {
                     teknolojiler: ["React", "Turkuaz Css"]
                 },
                 {
-                    ad: "Yeşilçam Sokağı",
-                    link: "https://yesilcamsokagi.com.tr/",
-                    aciklama: "Yeşilçam'ın izlerini taşıyan harika konseptli kafeler",
-                    tarih: "Mayıs 2018",
-                    teknolojiler: ["jQuery", "Owl Carousel", "Turkuaz Css"]
-                },
-                {
                     ad: "Toroslar Kapitone",
                     link: "https://toroslarkapitone.com/",
                     aciklama: "İstanbul'un en kaliteli, büyük ve köklü kapitone fabrikası",
@@ -289,7 +282,7 @@ export default class OmerGulcicek extends Component {
                     teknolojiler: ["React", "Router", "Turkuaz Css"]
                 }
             ],
-            sonGuncellenmeTarihi: "27 Mayıs 2018"
+            sonGuncellenmeTarihi: "1 Haziran 2018"
         }
         this.mobilMenu = this.mobilMenu.bind(this);
     }
