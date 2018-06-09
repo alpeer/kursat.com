@@ -282,7 +282,7 @@ export default class OmerGulcicek extends Component {
                     teknolojiler: ["React", "Router", "Turkuaz Css"]
                 }
             ],
-            sonGuncellenmeTarihi: "1 Haziran 2018"
+            sonGuncellenmeTarihi: "9 Haziran 2018"
         }
         this.mobilMenu = this.mobilMenu.bind(this);
     }
