@@ -13,7 +13,7 @@ import Blog                                         from "./components/Blog.js";
 import Iletisim                                     from "./components/Iletisim.js";
 import Footer                                       from "./components/Footer.js";
 import SayfaYok                                     from "./components/SayfaYok.js";
-import Img                                          from "./img_avatar.png";
+import Img                                          from "./image.png";
 import "./App.css";
 
 
@@ -214,6 +214,11 @@ export default class OmerGulcicek extends Component {
                     detay: "<ul><li><a href='https://github.com/omergulcicek/css-sass-rehberi' target='_blank' rel='noreferrer noopener'>Css Sass Rehberi</a></li><li><a href='https://github.com/omergulcicek/gulp' target='_blank' rel='noreferrer noopener'>Gulp</a></li><li><a href='https://github.com/omergulcicek/reactjs' target='_blank' rel='noreferrer noopener'>React</a></li><li><a href='https://github.com/omergulcicek/reactrouter' target='_blank' rel='noreferrer noopener'>React Router</a></li></ul>"
                 },
                 {
+                    hedef: "Türkçe Doküman",
+                    yapildiMi: true,
+                    detay: "2 Nisan 2018 tarihinde <a href='https://turkcedokuman.com/' target='_blank' rel='noreferrer noopener'>turkcedokuman.com</a> sitesini aktif olarak kullanıma sundum."
+                },
+                {
                     hedef: "Turkuaz Css",
                     yapildiMi: false
                 },
@@ -282,7 +287,7 @@ export default class OmerGulcicek extends Component {
                     teknolojiler: ["React", "Router", "Turkuaz Css"]
                 }
             ],
-            sonGuncellenmeTarihi: "9 Haziran 2018"
+            sonGuncellenmeTarihi: "10 Haziran 2018"
         }
         this.mobilMenu = this.mobilMenu.bind(this);
     }
