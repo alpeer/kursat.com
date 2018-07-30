@@ -37,7 +37,7 @@ export default class OmerGulcicek extends Component {
             ],
             kisiselBilgiler: {
                 name: "Ömer Gülçiçek",
-                company: "Ziraat Teknoloji",
+                company: "Arneca Teknoloji",
                 image: Img,
                 job: "Frontend Developer",
             },
@@ -46,8 +46,9 @@ export default class OmerGulcicek extends Component {
             hakkinda: [
                 "Şubat 93'te İstanbul Gaziosmanpaşa'da doğdum, aslen Trabzon'luyum. İngilizce hazırlık eğitimi ile başladığım Yazılım Mühendisliği bölümünden 2017 yılında mezun oldum.",
                 "Frontend Developer'ım, bir web sitesini sıfırdan oluşturabiliyorum. Web geliştirmede mevcut en iyi dilleri kullanarak iyi tasarlanmış, temiz ve verimli kod yazma konusunda yetenekliyim. Frontend dünyasının hızlı gelişimine ayak uydurabilen, yeni şeyler öğrenmeyi ve öğretmeyi seven, çalışkan bir takım oyuncusuyum.",
-                "HTML5, CSS3, SASS, JavaScript, ES6, jQuery, JSON, AJAX, React, React Router, Gulp, TFS, Kendo UI, Bootstrap, Semantic UI, Materialize CSS ve Turkuaz CSS'te tecrübem var.",
-                "Referanslar linkinden daha önce yapmış olduğum çalışmaları inceleyebilir; freelance işler için iletişim sayfasından detaylı bilgiye ulaşabilirsiniz. İletişim için e-posta'yı tercih edin. (<i>Genellikle gün içerisinde dönüş yapıyorum.<i>)",
+                "HTML5, CSS3, SASS, JavaScript, ES6, jQuery, JSON, AJAX, React, React Router, Gulp, TFS, Kendo UI, Bootstrap, Semantic UI, Materialize CSS ve Turkuaz CSS'te tecrübem var. Yazılım alanında Türkçe kaynak sayısını arttırmak adına GitHub üzerinden çeviriler yapmaktayım.",
+                "2016 yılı okul dönemimde 2 ay <a href='http://www.nuevo.com.tr/' target='_blank' rel='noopener noreferrer'>Nuevo Softwarehouse</a>'da çalıştım. Ardından 2017 yılında <a href='http://www.kartaca.com/' target='_blank' rel='noopener noreferrer'>Kartaca</a>'da çalıştıktan sonra danışmanlık hizmeti veren <a href='http://www.arneca.com/' target='_blank' rel='noopener noreferrer'>Arneca</a> bünyesine katıldım. 11 ay boyunda <a href='http://www.ziraatteknoloji.com/' target='_blank' rel='noopener noreferrer'>Ziraat Teknoloji</a>'de görev aldım. ",
+                "Referanslar linkinden daha önce yapmış olduğum çalışmaları inceleyebilir; freelance işler için iletişim sayfasından detaylı bilgiye ulaşabilirsiniz. İletişim için e-posta'yı tercih edin.",
                 "Hayallerimin ve hedeflerimin arkasından koşmaya devam edeceğim. Sevdiğim işi yapıyorum, bu sayede hayatımın sonuna kadar bir gün bile çalışmam gerekmiyor; tutkunuzu bulun ve işiniz iş olmaktan çıksın.",
                 "Detaylı ve güncel özgeçmişim için aşağıdaki butonu kullanabilirsiniz.",
             ],
@@ -209,9 +210,9 @@ export default class OmerGulcicek extends Component {
                     yapildiMi: false
                 },
                 {
-                    hedef: "Türkçe doküman hazırla (4/10)",
+                    hedef: "Türkçe doküman hazırla (5/10)",
                     yapildiMi: false,
-                    detay: "<ul><li><a href='https://github.com/omergulcicek/css-sass-rehberi' target='_blank' rel='noreferrer noopener'>Css Sass Rehberi</a></li><li><a href='https://github.com/omergulcicek/gulp' target='_blank' rel='noreferrer noopener'>Gulp</a></li><li><a href='https://github.com/omergulcicek/reactjs' target='_blank' rel='noreferrer noopener'>React</a></li><li><a href='https://github.com/omergulcicek/reactrouter' target='_blank' rel='noreferrer noopener'>React Router</a></li></ul>"
+                    detay: "<ul><li><a href='https://github.com/omergulcicek/css-sass-rehberi' target='_blank' rel='noreferrer noopener'>Css Sass Rehberi</a></li><li><a href='https://github.com/omergulcicek/es6' target='_blank' rel='noreferrer noopener'>ES6</a></li><li><a href='https://github.com/omergulcicek/gulp' target='_blank' rel='noreferrer noopener'>Gulp</a></li><li><a href='https://github.com/omergulcicek/reactjs' target='_blank' rel='noreferrer noopener'>React</a></li><li><a href='https://github.com/omergulcicek/reactrouter' target='_blank' rel='noreferrer noopener'>React Router</a></li></ul>"
                 },
                 {
                     hedef: "Türkçe Doküman",
@@ -287,7 +288,7 @@ export default class OmerGulcicek extends Component {
                     teknolojiler: ["React", "Router", "Turkuaz Css"]
                 }
             ],
-            sonGuncellenmeTarihi: "17 Haziran 2018"
+            sonGuncellenmeTarihi: "30 Temmuz 2018"
         }
         this.mobilMenu = this.mobilMenu.bind(this);
     }

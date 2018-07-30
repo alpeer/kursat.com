@@ -33,8 +33,6 @@ export default class Iletisim extends Component {
                                 <p>
                                     Ücret bilgisini mail yoluyla tarafınıza ileteceğim. Aklınızda soru işareti kalmaması ve ödemede sorun yaşamamak adına, içerisinde site yapım süreci hakkında detaylı bilgi aktarılan formalite sözleşmeye aşağıdaki butondan ulaşabilirsiniz.
                                 </p>
-                                
-                                <Link to="/sozlesme" className="buton">Sözleşmeyi İncele</Link>
                             </div>
                         </div>
                     </div>
