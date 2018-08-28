@@ -1,6 +1,7 @@
 ﻿import React, { Component, Fragment } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+import ScrollTop from "./components/ScrollTop";
 import Header from "./components/Header.js";
 import KisiselBilgiler from "./components/KisiselBilgiler.js";
 import SosyalAglar from "./components/SosyalAglar.js";
@@ -57,7 +58,7 @@ export default class OmerGulcicek extends Component {
           yapildiMi: false
         },
         {
-          hedef: "Bir şirkette 1 seneni tamamala",
+          hedef: "Bir şirkette 1 seneni tamamla",
           yapildiMi: true,
           detay:
             "Ağustos 2017'de işe başladığım Arneca danışmanlık şirketinde 1 senemi tamamladım."
@@ -296,7 +297,7 @@ export default class OmerGulcicek extends Component {
           teknolojiler: ["React", "Router", "Turkuaz Css"]
         }
       ],
-      sonGuncellenmeTarihi: "30 Temmuz 2018"
+      sonGuncellenmeTarihi: "28 Ağustos 2018"
     };
     this.mobilMenu = this.mobilMenu.bind(this);
   }
@@ -350,38 +351,40 @@ export default class OmerGulcicek extends Component {
             >
               <SosyalAglar />
             </KisiselBilgiler>
-            <Switch>
-              <Route
-                exact
-                path="/"
-                render={() => (
-                  <Hakkinda
-                    hakkinda={hakkinda}
-                    hakkindaBaslik={hakkindaBaslik}
-                    cvButon={cvButon}
-                  />
-                )}
-              />
+            <ScrollTop>
+              <Switch>
+                <Route
+                  exact
+                  path="/"
+                  render={() => (
+                    <Hakkinda
+                      hakkinda={hakkinda}
+                      hakkindaBaslik={hakkindaBaslik}
+                      cvButon={cvButon}
+                    />
+                  )}
+                />
 
-              <Route
-                path="/hedefler"
-                render={() => (
-                  <Hedefler
-                    hedefler={hedefler}
-                    hedeflerYazilim={hedeflerYazilim}
-                  />
-                )}
-              />
-              <Route path="/projeler" component={Projeler} />
-              <Route
-                path="/referanslar"
-                render={() => <Referanslar referanslar={referanslar} />}
-              />
-              <Route path="/blog" component={Blog} />
-              <Route path="/iletisim" component={Iletisim} />
-              <Route path="/sozlesme" component={Sozlesme} />
-              <Route component={SayfaYok} />
-            </Switch>
+                <Route
+                  path="/hedefler"
+                  render={() => (
+                    <Hedefler
+                      hedefler={hedefler}
+                      hedeflerYazilim={hedeflerYazilim}
+                    />
+                  )}
+                />
+                <Route path="/projeler" component={Projeler} />
+                <Route
+                  path="/referanslar"
+                  render={() => <Referanslar referanslar={referanslar} />}
+                />
+                <Route path="/blog" component={Blog} />
+                <Route path="/iletisim" component={Iletisim} />
+                <Route path="/sozlesme" component={Sozlesme} />
+                <Route component={SayfaYok} />
+              </Switch>
+            </ScrollTop>
           </main>
           <Footer sonGuncellenmeTarihi={sonGuncellenmeTarihi} />
           <div className="overlay" onClick={this.mobilMenu} />
