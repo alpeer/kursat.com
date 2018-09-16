@@ -2,15 +2,7 @@
 <img src="https://omergulcicek.com/img/omergulcicek.png" alt="Ömer Gülçiçek" height="100">
 </p>
 
-<h1 align="center">omergulcicek.com Kaynak Kod</h1>
-
-<h3><a href="https://omergulcicek.com/">omergulcicek.com</a></h3>
-
-Kişisel sitemin kaynak kodlarını open source olarak geliştiriyorum, beğenen istediği gibi kullanabilir.
-
-Sitenin çalışır halini <a href="https://omergulcicek.com">omergulcicek.com</a>'dan inceleyebilirsiniz.
-
-React ve React Router bilginizin yetersiz olduğunu düşünüyorsanız <a href="https://turkcedokuman.com/">Türkçe Doküman</a> sitesinden ilgili dokümanlara ulaşabilirsiniz. 
+<h1 align="center">omergulcicek.com v1</h1>
 
 ---
 
