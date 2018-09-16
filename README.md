@@ -14,9 +14,9 @@ React ve React Router bilginizin yetersiz olduğunu düşünüyorsanız <a href=
 
 Tüm sürümler aşağıdaki görselde gösterilmiştir. Tıklayarak detaylarına erişebilirsiniz.
 
-| <a href="https://github.com/omergulcicek/omergulcicek.com/tree/master/v1" target="_blank"><img src="https://omergulcicek.com/img/v/v1.png" height="320"></a> | | |
+| <a href="https://github.com/omergulcicek/omergulcicek.com/tree/master/v1" target="_blank"><img src="https://omergulcicek.com/img/version/v1.png"></a> | <a href="https://github.com/omergulcicek/omergulcicek.com/tree/master/v1" target="_blank"><img src="https://omergulcicek.com/img/version/v2.png"></a> | |
 | :---: | :---: | :---: |
-| v1 | | |
+| v1 | v2 |  |
 
 <i>Takıldığınız yerde yada anlamadığınız kodda iletişime geçebilirsiniz.</i>
 
