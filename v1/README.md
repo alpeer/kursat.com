@@ -2,7 +2,7 @@
 <img src="https://omergulcicek.com/img/omergulcicek.png" alt="Ömer Gülçiçek" height="100">
 </p>
 
-<h1 align="center">omergulcicek.com v1</h1>
+<a href="https://v1.omergulcicek.com/" target="_blank"><h1 align="center">v1.omergulcicek.com</h1></a>
 
 <a href="https://github.com/facebook/create-react-app">create-react-app</a> kullanılarak geliştirilmiştir. Ek olarak sadece <a href="https://reacttraining.com/react-router/">react-router-dom</a> kullanılmıştır.
 
