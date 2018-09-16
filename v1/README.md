@@ -4,8 +4,6 @@
 
 <h1 align="center">omergulcicek.com v1</h1>
 
----
-
 <a href="https://github.com/facebook/create-react-app">create-react-app</a> kullanılarak geliştirilmiştir. Ek olarak sadece <a href="https://reacttraining.com/react-router/">react-router-dom</a> kullanılmıştır.
 
 ```sh
@@ -22,8 +20,6 @@
     }
 }
 ```
-
----
 
 # Kullanımı
 
