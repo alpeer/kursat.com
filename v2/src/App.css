@@ -1,0 +1,185 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #252525;
+  font-family: "Montserrat", sans-serif;
+}
+
+a[href^="mailto:"],
+a[href^="tel:"],
+.spans {
+  color: #03968a;
+}
+
+.spans span:first-child {
+  font-weight: lighter;
+}
+
+.spans span:last-child {
+  font-weight: bold;
+}
+
+.etiket {
+  background-color: #ff3979;
+  color: #fff;
+  font-size: 13px;
+  vertical-align: text-bottom;
+}
+
+/* HEADER */
+.header {
+  align-items: center;
+  background: #fff url("img/background.jpg") left top / cover no-repeat;
+  display: flex;
+  height: 75vh;
+}
+
+.header__hello {
+  margin-bottom: 32px;
+}
+
+.header__hello-header {
+  background-color: #ff3979;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding: 8px 16px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.header__hello-header::before {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 16px solid #ff3979;
+  bottom: -16px;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+
+.header__info__name {
+  margin-bottom: 0;
+}
+
+.header__info__job {
+  font-weight: lighter;
+  margin-bottom: 16px;
+}
+
+.header__social {
+  margin-top: 56px;
+}
+
+/*SOCIAL */
+.social svg {
+  cursor: pointer;
+  fill: #a8b3b9;
+  height: 30px;
+  margin-right: 16px;
+  transition: 0.1s;
+  width: 30px;
+}
+
+.social svg:hover {
+  fill: #03968a;
+}
+
+/* SECTION */
+.section__heading {
+  background-color: #fff;
+  border-radius: 0 40px 40px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin: 64px 0;
+  padding: 8px 24px 8px 10%;
+}
+
+/* Work Experience */
+.work-experience {
+  border-left: 1px solid #e8e8e8;
+}
+
+.work-experience-section {
+  padding-bottom: 8px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.work-experience-section::before {
+  border: 4px solid #03968a;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #fff;
+  content: "";
+  display: inline-block;
+  height: 17px;
+  left: 0;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%) translateY(50%);
+  top: 0;
+  width: 17px;
+}
+
+.work-experience-section p {
+  font-size: 14px;
+}
+
+.work-experience-header {
+  color: #03968a;
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-right: 16px;
+}
+
+.work-experience-profession {
+  color: #5f5f5f;
+  font-weight: normal;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.work-experience-link {
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.work-sub {
+  border-left: 1px solid #e8e8e8;
+  margin-bottom: 16px;
+  margin-left: 56px;
+  padding-bottom: 4px;
+}
+
+/* contact */
+.contact {
+  text-align: center;
+}
+
+.contact__mail {
+  color: #03968a;
+  font-weight: lighter;
+  margin-bottom: 24px;
+}
+
+/* FOOTER */
+footer {
+  color: #03968a;
+  padding-bottom: 24px;
+  padding-top: 64px;
+  text-align: center;
+}
+
+/* referanslar */
+.reference-work {
+}
