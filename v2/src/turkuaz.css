@@ -40,6 +40,13 @@ body {
   min-height: 100vh;
 }
 
+hr {
+  background-color: #f5f5f5;
+  border: none;
+  height: 2px;
+  margin: 16px 0;
+}
+
 svg {
   display: inline-block;
   vertical-align: middle;
@@ -126,6 +133,8 @@ h5 {
 
 .ck12,
 .ck,
+.o6,
+.b4,
 .b6,
 .b8 {
   position: relative;
@@ -160,17 +169,32 @@ h5 {
   .container {
     max-width: 540px;
   }
+  .o6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
+  .o6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+  }
+  .b4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
   }
   .b6 {
     -ms-flex: 0 0 50%;
@@ -206,7 +230,7 @@ h5 {
   cursor: default;
   display: inline-block;
   font-size: 14px;
-  line-height: 2;
+  line-height: 32px;
   padding: 0 12px;
   transition: 0.15s ease;
   user-select: none;
@@ -219,4 +243,82 @@ h5 {
 
 .etiket:active {
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+.kutu {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 32px;
+  padding: 24px;
+}
+
+.kart {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin-bottom: 32px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.kart--dar {
+  margin-top: 16px;
+}
+
+.kart--genis {
+  box-shadow: none;
+}
+
+.kart__resim {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.kart--dar .kart__resim,
+.kart--genis .kart__resim {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.kart__resim img {
+  cursor: pointer;
+  vertical-align: middle;
+  transform: scale(1.01);
+  transition: 0.1s;
+  width: 100%;
+}
+
+.kart__resim:hover img {
+  transform: scale(1.025);
+}
+
+.kart__icerik {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.kart--dar .kart__resim {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -16px;
+}
+
+.kart--genis .kart__icerik {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.kart__baslik {
+  text-transform: capitalize;
 }

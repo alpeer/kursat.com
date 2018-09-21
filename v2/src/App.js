@@ -23,6 +23,36 @@ export default class App extends Component {
         "Web geliştirmede mevcut en iyi dilleri kullanarak iyi tasarlanmış, temiz ve verimli kod yazma konusunda yetenekliyim. Frontend dünyasının hızlı gelişimine ayak uydurabilen, yeni şeyler öğrenmeyi seven, çalışkan bir takım oyuncusuyum.",
         "HTML5, CSS3, SASS, JavaScript, ES6, jQuery, JSON, AJAX, React, React Router, Gulp, TFS, Kendo UI, Bootstrap, Semantic UI, Materialize CSS ve Turkuaz CSS'te tecrübem var. Yazılım alanında Türkçe kaynak sayısını arttırmak adına GitHub üzerinden çeviriler yapmaktayım."
       ],
+      referenceWorks: [
+        {
+          name: "Turkuaz Css",
+          description:
+            "Daha hızlı ve kolay web sayfaları geliştirmek için tasarlanan güçlü bir Framework",
+          date: "Nisan 2016",
+          link: "https://turkuazcss.com"
+        },
+        {
+          name: "Türkçe Doküman",
+          description:
+            "Yazılım alanında Türkçe dokümanların bulunduğu bir açık kaynak proje",
+          date: "Nisan 2018",
+          link: "https://turkcedokuman.com"
+        },
+        {
+          name: "Toroslar Kapitone",
+          description:
+            "Türkiye'nin en büyük kapitone fabrikasının web site ön yüz çalışması",
+          date: "Eylül 2016",
+          link: "https://toroslarkapitone.com"
+        },
+        {
+          name: "React JS Dokümanı",
+          description:
+            "Facebook'un geliştirdiği JavaScript kütüphanesinin Türkçe uyarlaması",
+          date: "Aralık 2017",
+          link: "https://omergulcicek.github.io/reactjs"
+        }
+      ],
       workExperience: [
         {
           companyName: "Arneca",
@@ -55,7 +85,7 @@ export default class App extends Component {
         {
           companyName: "Nuevo Softwarehouse",
           description:
-            "2016 yılında 2 ay Nuevo Softwarehouse'da çalıştım.  Üniversite stajı boyunca ASP.NET tabanlı isinisev.com sitesi Bootstrap, SASS ve jQuery kullanılarak geliştirildi. Okuldaki devamsızlık probleminden dolayı ayrılmak zorunda kalındı.",
+            "2016 yılında 2 ay Nuevo Softwarehouse'da çalıştım.  Üniversite stajı boyunca ASP.NET tabanlı isinisev.com sitesi Bootstrap, SASS ve jQuery kullanılarak geliştirildi.",
           dueDate: "Mart 2016",
           link: "http://www.nuevo.com.tr",
           profession: "Frontend Developer",
@@ -65,7 +95,7 @@ export default class App extends Component {
     };
   }
   render() {
-    const { header, about, workExperience } = this.state;
+    const { header, about, referenceWorks, workExperience } = this.state;
     return (
       <Fragment>
         <Header header={header}>
@@ -73,7 +103,7 @@ export default class App extends Component {
         </Header>
         <About about={about} />
         <WorkExperience workExperience={workExperience} />
-        <ReferenceWorks />
+        <ReferenceWorks referenceWorks={referenceWorks} />
         <Contact>
           <Social />
         </Contact>

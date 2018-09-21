@@ -3,7 +3,7 @@ import React, { Component, Fragment } from "react";
 export default class WorkExperience extends Component {
   render() {
     const workExperience = this.props.workExperience;
-    let chart = workExperience.map((e, i) => (
+    let workExperienceContent = workExperience.map((e, i) => (
       <div
         key={i}
         className={
@@ -13,7 +13,7 @@ export default class WorkExperience extends Component {
         }
       >
         <h3 className="work-experience-header">{e.companyName}</h3>
-        <span className="etiket">
+        <span className="etiket kart__etiket">
           {e.startDate} - {e.dueDate}
         </span>
         <h5 className="work-experience-profession">{e.profession}</h5>
@@ -38,7 +38,7 @@ export default class WorkExperience extends Component {
           <div className="container">
             <div className="row">
               <div className="ck12 b6">
-                <div className="work-experience">{chart}</div>
+                <div className="work-experience">{workExperienceContent}</div>
               </div>
             </div>
           </div>

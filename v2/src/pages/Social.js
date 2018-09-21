@@ -10,6 +10,7 @@ export default class Social extends Component {
             target="_blank"
             rel="noopener noreferrer"
             title="github.com/omergulcicek"
+            className="animated fadeInUp delay-2"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g>
@@ -22,6 +23,7 @@ export default class Social extends Component {
             target="_blank"
             rel="noopener noreferrer"
             title="twitter.com/omergulcicek"
+            className="animated fadeInUp delay-225"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g>
@@ -34,6 +36,7 @@ export default class Social extends Component {
             target="_blank"
             rel="noopener noreferrer"
             title="linkedin.com/omergulcicek"
+            className="animated fadeInUp delay-25"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g>
@@ -46,6 +49,7 @@ export default class Social extends Component {
             target="_blank"
             rel="noopener noreferrer"
             title="medium.com/omergulcicek"
+            className="animated fadeInUp delay-275"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g>
@@ -58,6 +62,7 @@ export default class Social extends Component {
             target="_blank"
             rel="noopener noreferrer"
             title="facebook.com/omergulcicek"
+            className="animated fadeInUp delay-3"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g>
