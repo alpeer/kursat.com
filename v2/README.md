@@ -13,10 +13,6 @@
         "react": "^16.3.2",
         "react-dom": "^16.3.2",
         "react-scripts": "1.1.4"
-    },
-    /* ... */
-    "devDependencies": {
-        "react-router-dom": "^4.2.2"
     }
 }
 ```
