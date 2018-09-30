@@ -16,7 +16,7 @@ Tüm sürümler aşağıdaki görselde gösterilmiştir. Tıklayarak detayların
 
 | <a href="https://github.com/omergulcicek/omergulcicek.com/tree/master/v1" target="_blank"><img src="https://omergulcicek.com/img/versiyon/v1.png"></a> | <a href="https://github.com/omergulcicek/omergulcicek.com/tree/master/v2" target="_blank"><img src="https://omergulcicek.com/img/versiyon/v2.png"></a> | |
 | :---: | :---: | :---: |
-| v1 | v2 |  |
+| v1 | v2 (Şu anki hali) |  |
 
 <i>Takıldığınız yerde yada anlamadığınız kodda iletişime geçebilirsiniz.</i>
 
