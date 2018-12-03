@@ -2,7 +2,7 @@
 <img src="https://omergulcicek.com/img/omergulcicek.png" alt="Ömer Gülçiçek" height="100">
 </p>
 
-<a href="https://omergulcicek.com/" target="_blank"><h1 align="center">omergulcicek.com</h1></a>
+<a href="https://v2.omergulcicek.com/" target="_blank"><h1 align="center">v2.omergulcicek.com</h1></a>
 
 <a href="https://github.com/facebook/create-react-app">create-react-app</a> kullanılarak geliştirilmiştir.
 
