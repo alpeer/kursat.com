@@ -4,7 +4,7 @@
 
 <a href="https://omergulcicek.com/" target="_blank"><h1 align="center">omergulcicek.com</h1></a>
 
-<a href="https://turkuazcss.com/" target="_blank">Turkuaz Css</a>, <a href="https://jquery.com/" target="_blank">jQuery</a>  ve <a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">OwlCarousel2</a> kullanılarak geliştirilmiştir.
+<a href="https://turkuazcss.com/" target="_blank">Turkuaz Css</a> kullanılarak geliştirilmiştir.
 
 ---
 
