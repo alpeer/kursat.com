@@ -4,7 +4,7 @@
 
 <a href="https://omergulcicek.com/" target="_blank"><h1 align="center">omergulcicek.com</h1></a>
 
-<a href="https://turkuazcss.com/" target="_blank">Turkuaz Css</a> kullanılarak geliştirilmiştir.
+<a href="https://amp.dev" target="_blank">AMP</a> kullanılarak geliştirilmiştir.
 
 ---
 
