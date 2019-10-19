@@ -2,7 +2,7 @@
 <img src="https://omergulcicek.com/img/omergulcicek-v3.png" alt="Ömer Gülçiçek" height="100">
 </p>
 
-<a href="https://omergulcicek.com/" target="_blank"><h1 align="center">omergulcicek.com</h1></a>
+<a href="https://v3.omergulcicek.com/" target="_blank"><h1 align="center">v3.omergulcicek.com</h1></a>
 
 <a href="https://amp.dev" target="_blank">AMP</a> kullanılarak geliştirilmiştir.
 
