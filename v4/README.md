@@ -2,7 +2,7 @@
 <img src="https://omergulcicek.com/img/omergulcicek-v4.png" alt="Ömer Gülçiçek" height="100">
 </p>
 
-<a href="https://v4.omergulcicek.com/" target="_blank"><h1 align="center">v4.omergulcicek.com</h1></a>
+<a href="https://omergulcicek.com/" target="_blank"><h1 align="center">omergulcicek.com</h1></a>
 
 ---
 
