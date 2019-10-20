@@ -93,7 +93,7 @@ p {
     margin-right: 12px
 }
 
-.social a:hover {
+.social a:hover svg {
     transform: scale(1.1)
 }
 
