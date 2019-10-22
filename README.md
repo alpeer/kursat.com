@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://omergulcicek.com/img/omergulcicek-v3.png" alt="Ömer Gülçiçek" height="100">
+<img src="https://omergulcicek.com/public/favicon.png" alt="Ömer Gülçiçek" height="100">
 </p>
 
 <h1 align="center">omergulcicek.com Kaynak Kod</h1>
