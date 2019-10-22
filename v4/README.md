@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://omergulcicek.com/img/omergulcicek-v4.png" alt="Ömer Gülçiçek" height="100">
+<img src="https://omergulcicek.com/public/favicon.png" alt="Ömer Gülçiçek" height="100">
 </p>
 
 <a href="https://omergulcicek.com/" target="_blank"><h1 align="center">omergulcicek.com</h1></a>
