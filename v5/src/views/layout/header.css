@@ -1,0 +1,13 @@
+header.active {
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+header nav a.active span {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+html[data-theme='dark'] header {
+  background-color: var(--background-color);
+}
