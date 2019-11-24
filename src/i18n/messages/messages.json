@@ -1,0 +1,53 @@
+[
+  {
+    "id": "home",
+    "defaultMessage": "Ana Sayfa",
+    "filepath": "src/views/layout/Header.jsx"
+  },
+  {
+    "id": "article",
+    "defaultMessage": "Blog",
+    "filepath": "src/views/layout/Header.jsx"
+  },
+  {
+    "id": "projects",
+    "defaultMessage": "Projeler",
+    "filepath": "src/views/layout/Header.jsx"
+  },
+  {
+    "id": "darkMode",
+    "defaultMessage": "Karanlık Mod Değiş",
+    "filepath": "src/views/layout/Header.jsx"
+  },
+  {
+    "id": "copyright",
+    "defaultMessage": "Telif Hakkı",
+    "filepath": "src/views/layout/Footer.jsx"
+  },
+  {
+    "id": "latestArticles",
+    "defaultMessage": "Son Makaleler",
+    "filepath": "src/views/pages/home/LatestArticle.jsx"
+  },
+  {
+    "id": "openSourceProjects",
+    "defaultMessage": "Açık Kaynak Projeler",
+    "filepath": "src/views/pages/home/OpenSourceProjects.jsx"
+  },
+  {
+    "id": "viewAll",
+    "defaultMessage": "Hepsini Göster",
+    "filepath": [
+      "src/views/pages/home/LatestArticle.jsx",
+      "src/views/pages/home/OpenSourceProjects.jsx"
+    ]
+  },
+  {
+    "id": "newBadge",
+    "defaultMessage": "Yeni!",
+    "filepath": [
+      "src/views/pages/home/LatestArticle.jsx",
+      "src/views/pages/home/OpenSourceProjects.jsx"
+    ]
+  }
+]
