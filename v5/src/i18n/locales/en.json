@@ -4,6 +4,8 @@
   "darkMode": "Toggle Dark Mode",
   "home": "Home",
   "latestArticles": "Latest Articles",
-  "new": "New!",
+  "newBadge": "New!",
+  "openSourceProjects": "Open Source Projects",
+  "projects": "Projects",
   "viewAll": "View All"
 }

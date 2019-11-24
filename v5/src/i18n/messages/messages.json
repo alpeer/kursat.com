@@ -10,6 +10,11 @@
     "filepath": "src/views/layout/Header.jsx"
   },
   {
+    "id": "projects",
+    "defaultMessage": "Projeler",
+    "filepath": "src/views/layout/Header.jsx"
+  },
+  {
     "id": "darkMode",
     "defaultMessage": "Karanlık Mod Değiş",
     "filepath": "src/views/layout/Header.jsx"
@@ -25,13 +30,24 @@
     "filepath": "src/views/pages/home/LatestArticle.jsx"
   },
   {
-    "id": "viewAll",
-    "defaultMessage": "Hepsini Göster",
-    "filepath": "src/views/pages/home/LatestArticle.jsx"
+    "id": "openSourceProjects",
+    "defaultMessage": "Açık Kaynak Projeler",
+    "filepath": "src/views/pages/home/OpenSourceProjects.jsx"
   },
   {
-    "id": "new",
+    "id": "viewAll",
+    "defaultMessage": "Hepsini Göster",
+    "filepath": [
+      "src/views/pages/home/LatestArticle.jsx",
+      "src/views/pages/home/OpenSourceProjects.jsx"
+    ]
+  },
+  {
+    "id": "newBadge",
     "defaultMessage": "Yeni!",
-    "filepath": "src/views/pages/home/LatestArticle.jsx"
+    "filepath": [
+      "src/views/pages/home/LatestArticle.jsx",
+      "src/views/pages/home/OpenSourceProjects.jsx"
+    ]
   }
 ]

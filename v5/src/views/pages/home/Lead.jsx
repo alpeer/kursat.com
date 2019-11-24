@@ -80,25 +80,24 @@ const Hi = styled.div`
   animation-name: wave;
   display: none;
   position: absolute;
-  right: calc(100% + 8px);
+  right: calc(100% + .5rem);
   transform-origin: 70% 70%
 
-  @media (min-width: 1024px) {
+  @media (min-width: 64rem) {
     display: block;
-    right: calc(100% + 16px);
+    right: calc(100% + 1rem);
   }
 `;
 
 const Title = styled.h1`
   color: var(--text-color);
   font-weight: 700;
-  font-size: 19px;
-  line-height: 1.75;
-  margin: 0;
+  font-size: 1.4rem;
+  margin: 0 0 .5rem;
   position: relative;
 
-  @media (min-width: 1024px) {
-    font-size: 40px;
+  @media (min-width: 64rem) {
+    font-size: 2.5rem;
   }
 `;
 
@@ -108,11 +107,11 @@ const Subtitle = styled.em`
   font-size: 1rem;
   font-style: italic;
   font-weight: 100;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   margin-top: 0;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 64rem) {
     font-size: 1.2rem;
-    margin-bottom: 24px;
+    margin-bottom: 4rem;
   }
 `;

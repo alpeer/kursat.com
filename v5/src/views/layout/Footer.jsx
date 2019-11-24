@@ -46,15 +46,19 @@ const FooterWrap = styled.footer`
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  margin-top: 64px;
+  margin: 10rem auto 0;
+  max-width: 80%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 64rem) {
     flex-direction: row;
+    max-width: 50rem;
   }
 `;
 
 const Div = styled.div`
-  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
 `;
 
 const Copyright = styled.span`
@@ -63,8 +67,9 @@ const Copyright = styled.span`
 
 const Social = styled.a`
   display: inline-block;
-  margin-right: 16px;
+  margin-right: 1rem;
   transition: 0.1s all ease-out;
+  
   &:hover {
     transform: scale(1.1);
   }

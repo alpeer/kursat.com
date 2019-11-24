@@ -12,7 +12,7 @@ export default class OmerGulcicek extends Component {
     const messages = translations[locale];
 
     return (
-      <IntlProvider locale={locale} key={locale} messages={messages}>
+      <IntlProvider locale={locale} defaultLocale={locale} key={locale} messages={messages}>
         <App />
       </IntlProvider>
     );

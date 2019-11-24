@@ -10,6 +10,7 @@ import "./header.css"
 const messages = defineMessages({
   home:     { id: "home" },
   article:  { id: "article" },
+  projects: { id: "projects" },
   darkMode: { id: "darkMode" },
 })
 
@@ -32,7 +33,7 @@ class Header extends Component {
     html.setAttribute("lang", lang);
 
     window.addEventListener("scroll", () => {
-      window.scrollY > 250
+      window.scrollY >= 150
         ? header.classList.add("active")
         : header.classList.remove("active");
    });
@@ -57,35 +58,43 @@ class Header extends Component {
 
     return (
       <HeaderWrap>
-        <Link to="/">
-          <Title>...</Title>
-        </Link>
+        <HeaderFlex>
+          <Link to="/">
+            <Title>...</Title>
+          </Link>
 
-        <AlignCenter>
-          <nav>
-            <NavLink to="/" exact>
+          <AlignCenter>
+            <nav>
+              <NavLink to="/" exact>
+                <Text>
+                  {formatMessage(messages.home)}
+                </Text>
+              </NavLink>
+
+              <NavLink to="/blog">
+                <Text>
+                  {formatMessage(messages.article)}
+                </Text>
+              </NavLink>
+
+            <NavLink to="/projects">
               <Text>
-                {formatMessage(messages.home)}
+                {formatMessage(messages.projects)}
               </Text>
             </NavLink>
-
-            <NavLink to="/blog">
-              <Text>
-                {formatMessage(messages.article)}
-              </Text>
-            </NavLink>
-          </nav>
-          
-          <div className="dark-mode">
-            <Button onClick={this.changeDarkMode} title={formatMessage(messages.darkMode)}>
-              {
-                !isDarkMode
-                ? <DarkMode src={darkModeOn} alt={formatMessage(messages.darkMode)}/>
-                : <DarkMode src={darkModeOff} alt={formatMessage(messages.darkMode)} />
-              }
-            </Button>
-          </div>
-        </AlignCenter>
+            </nav>
+            
+            <div className="dark-mode">
+              <Button onClick={this.changeDarkMode} title={formatMessage(messages.darkMode)}>
+                {
+                  !isDarkMode
+                  ? <DarkMode src={darkModeOn} alt={formatMessage(messages.darkMode)}/>
+                  : <DarkMode src={darkModeOff} alt={formatMessage(messages.darkMode)} />
+                }
+              </Button>
+            </div>
+          </AlignCenter>
+        </HeaderFlex>
       </HeaderWrap>
     );
   }
@@ -94,41 +103,68 @@ class Header extends Component {
 export default injectIntl(Header);
 
 const HeaderWrap = styled.header`
-  align-items: center;
   background-color: #fff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 24px;
-  padding-top: 24px;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
   position: sticky;
   top: 0;
   transition: 0.2s padding ease-out;
   z-index: 1;
 `;
 
+const HeaderFlex = styled.div`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: auto;
+  max-width: 80%;
+
+  @media (min-width: 64rem) {
+    flex-direction: row;
+    max-width: 50rem;
+  }
+`;
+
 const Title = styled.span`
   animation: dotBricks 5s infinite ease;
   border-radius: 4px;
-  display: block;
-  font-size: 24px;
+  display: none;
+  font-size: 1.5rem;
   height: 8px;
+  margin-bottom: 2rem;
+  margin-left: .5rem;
   left: -9999px;
   padding: 1px;
   position: relative;
   top: 8px;
   width: 8px;
+
+  @media (min-width: 64rem) {
+    display: block;
+    margin-bottom: 0;
+  }
 `;
 
 const AlignCenter = styled.div`
   align-items: center;
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  @media (min-width: 64rem) {
+    width: auto;
+  }
+
+  a {
+    margin-right: 1.25rem;
+  }
 `;
 
 const DarkMode = styled.img`
   cursor:pointer;
   height: 22px;
-  margin-left: 8px;
 `;
 
 const Button = styled.button`
@@ -142,12 +178,11 @@ const Text = styled.span`
   color: var(--text-color);
   display: inline-block;
   font-weight: bold;
-  margin: 0 12px;
   opacity: 0.5;
-  padding: 12px 0;
+  padding: .75rem 0;
 
-  @media (min-width: 1024px) {
-    padding-left: 8px;
-    padding-right: 8px;
+  @media (min-width: 64rem) {
+    padding-left: .5rem;
+    padding-right: .5rem;
   }
 `;
