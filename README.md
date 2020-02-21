@@ -14,11 +14,13 @@ Bazı versiyonlarda React ve React Router kullandım. React ve React Router bilg
 
 Tüm sürümler aşağıdaki görselde gösterilmiştir. Tıklayarak detaylarına erişebilirsiniz.
 
-| <a href="https://github.com/omergulcicek/omergulcicek.com/tree/master/v1" target="_blank"><img src="https://omergulcicek.com/img/versiyon/v-1.png"></a> | <a href="https://github.com/omergulcicek/omergulcicek.com/tree/master/v2" target="_blank"><img src="https://omergulcicek.com/img/versiyon/v-2.png"></a> | <a href="https://github.com/omergulcicek/omergulcicek.com/tree/master/v3" target="_blank"><img src="https://omergulcicek.com/img/versiyon/v-3.png"></a> |
-| :---: | :---: | :---: |
-| v1 | v2 | v3 |
-| <a href="https://github.com/omergulcicek/omergulcicek.com/tree/master/v4" target="_blank"><img src="https://omergulcicek.com/img/versiyon/v-4.png"></a> |  |  |
-| v4 (Şu anki hali) |  |  |
+### Tüm Versiyonlar
+
+- (version 1 - React + React Router)[https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v1]
+- (version 2 - React)[https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v2]
+- (version 3 - AMP)[https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v3]
+- (version 4 - HTML)[https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v4]
+- (version 5 - React + React Router + Styled Component)[https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v5]
 
 <i>Takıldığınız yerde yada anlamadığınız kodda iletişime geçebilirsiniz.</i>
 

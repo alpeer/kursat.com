@@ -1,49 +1,52 @@
-import React from "react";
+import React from "react"
 import {
-  BrowserRouter as Router,
+  BrowserRouter as Router, 
   Switch,
-  Route
-} from "react-router-dom";
-import styled from "styled-components";
+  Route,
+  Redirect
+} from "react-router-dom"
 
-import ScrollToTop from "./ScrollToTop";
-import Header from "./views/layout/Header";
-import Footer from "./views/layout/Footer";
-import Home from "./views/pages/home/Home";
-import Blog from "./views/pages/blog/Articles";
-import BlogDetail from "./views/pages/blog/ArticlesDetail";
-import Projects from "./views/pages/projects/Projects";
+import { Layout } from "./components"
+import { Home, Blog, BlogDetail, Personel, About, Error } from "./pages"
 
-export default function App() {
+const App = () => {
   return (
     <Router>
-      <ScrollToTop />
-      <Header />
+      <Layout>
+        <Switch>
+          
+          <Route exact path="/">
+            <Home />
+          </Route>
 
-      <Main>
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/blog" exact component={Blog} />
-            <Route path="/blog/:article" component={BlogDetail} />
-            <Route path="/projects" exact component={Projects} />
-          </Switch>
-      </Main>
+          <Route path="/blog">
+            <Blog />
+          </Route>
 
-      <Footer />
+          <Route path="/personel">
+            <Personel />
+          </Route>
+
+          <Route path="/about">
+            <About />
+          </Route>
+
+          <Route path="/cv">
+            <Redirect to="/cv.pdf" />
+          </Route>
+
+          <Route path="/404">
+            <Error />
+          </Route>
+
+          <Route path="/:path" component={BlogDetail} />
+          {
+            /* Blog detay sayfasında makale ile eşleşilmezse error sayfası import edilecek */
+          }
+        </Switch>
+      </Layout>
     </Router>
-  );
+  )
 }
 
-const Main = styled.main`
-  margin: 2rem auto 2.5rem;
-  max-width: 80%;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-
-  @media (min-width: 64rem) {
-    margin: 7.5rem auto 10rem;
-    max-width: 50rem;
-  }
-`;
-
-
+export default App
