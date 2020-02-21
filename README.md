@@ -16,11 +16,11 @@ Tüm sürümler aşağıdaki görselde gösterilmiştir. Tıklayarak detayların
 
 ### Tüm Versiyonlar
 
-- (version 1 - React + React Router)[https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v1]
-- (version 2 - React)[https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v2]
-- (version 3 - AMP)[https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v3]
-- (version 4 - HTML)[https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v4]
-- (version 5 - React + React Router + Styled Component)[https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v5]
+- [version 1 - React + React Router](https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v1)
+- [version 2 - React](https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v2)
+- [version 3 - AMP](https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v3)
+- [version 4 - HTML](https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v4)
+- [version 5 - React + React Router + Styled Component](https://github.com/omergulcicek/omergulcicek.com/tree/master/old-versions/v5)
 
 <i>Takıldığınız yerde yada anlamadığınız kodda iletişime geçebilirsiniz.</i>
 
