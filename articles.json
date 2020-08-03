@@ -2,21 +2,25 @@
     {
         "baslik": "Kişisel Web Sitesi",
         "link": "https://medium.com/kodcular/ki%C5%9Fisel-web-sitesi-56c13e611ac2",
+        "tarih": "20 Ekim 2019",
         "site": "medium.com"
     },
     {
         "baslik": "Günümüz Türkiye’si",
         "link": "https://medium.com/t%C3%BCrkiye/g%C3%BCn%C3%BCm%C3%BCz-t%C3%BCrkiyesi-46bd7a8c69f6",
+        "tarih": "8 Ocak 2019",
         "site": "medium.com"
     },
     {
         "baslik": "JSX Nedir?",
         "link": "https://medium.com/kodcular/jsx-nedir-d7ebd9f93045",
+        "tarih": "30 Aralık 2017",
         "site": "medium.com"
     },
     {
         "baslik": "How To Build a Full Stack Clojure Project",
         "link": "https://dev.to/kelvinmai/how-to-build-a-full-stack-clojure-project-2223",
+        "tarih": "3 Temmuz 2020",
         "site": "dev.to"
     }
 ]
