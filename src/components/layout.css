@@ -1,0 +1,148 @@
+:root {
+  --c-background: #1b1b1b;
+  --c-theme: #c32865;
+  --c-text: #fff;
+  --c-grey: #888;
+  --f-size: 14px;
+  --g-transition: 240ms;
+}
+
+html[data-theme="light"] {
+  --c-background: #fff;
+  --c-text: #1b1b1b;
+}
+
+@media (min-width: 992px) {
+  :root {
+    --f-size: 18px;
+  }
+}
+
+::selection {
+  background-color: var(--c-theme);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  background-color: var(--c-background);
+  color: var(--c-text);
+  font-family: "Inter", sans-serif;
+  font-size: var(--f-size);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+p:not(:last-of-type) {
+  margin-bottom: 25px;
+}
+
+img {
+  margin-bottom: 56px;
+  margin-top: 56px;
+  max-width: 100%;
+}
+
+figure img {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  font-size: inherit;
+}
+
+a:hover {
+  color: var(--c-theme);
+}
+
+hr {
+  background-color: rgba(0,0,0,0.3);
+  border: 0;
+  height: 2px;
+  width: 100%;
+}
+
+table {
+  background-color: var(--c-background);
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: var(--c-text);
+  font-size: 16px;
+  margin-bottom: 16px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 12px 16px;
+}
+
+th {
+  border: 1px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+}
+
+td {
+  border: 1px solid rgba(0,0,0,0.3);
+}
+
+pre {
+  background-color: #292d3e;
+  border-radius: 8px;
+  color: #bfc7d5;
+  margin-bottom: 32px;
+  margin-left: -32px;
+  margin-right: -32px;
+  overflow: auto;
+  padding: 24px;
+}
+
+@media (min-width: 992px) {
+  pre {
+    margin-left: -96px;
+    margin-right: -96px;
+  }
+}
+
+code {
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 3px 6px;
+}
+
+pre code {
+  border-radius: 0;
+  padding: 0;
+}
+
+html[data-theme="light"] header div[type="button"] {
+  background-color: rgba(0,0,0,0.05)
+}
+
+html[data-theme="light"] header div[type="button"]:hover {
+  background-color: rgba(0,0,0,0.15)
+}
+
+html[data-theme="light"] .projects article:hover {
+  background-color: rgba(0,0,0,0.05)
+}
+
+html[data-theme="light"] hr {
+  background-color: rgba(0,0,0,0.05)
+}
