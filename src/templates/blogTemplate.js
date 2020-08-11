@@ -20,6 +20,7 @@ export default function Template({ data }) {
       <section>
         <Details>
           <Link to="/blog">{"<- Tüm Yazılar"}</Link>
+          
           <span>•</span>
           <span>{ date }</span>
           <span>•</span>
@@ -29,19 +30,21 @@ export default function Template({ data }) {
             <span title="Tahmini Okuma Süresi">{ Math.ceil(minutes) } dk</span>
           }
           
-          {
-            medium && <>
-              <span>•</span>
-              <a href={medium} target="_blank" rel="noopener noreferrer">Medium'da Oku</a>
-            </>
-          }
+          <div>
+            {
+              medium && <>
+                <span>•</span>
+                <a href={medium} target="_blank" rel="noopener noreferrer">Medium'da Oku</a>
+              </>
+            }
 
-          {
-            devto && <>
-              <span>•</span>
-              <a href={devto} target="_blank" rel="noopener noreferrer">Read English</a>
-            </>
-          }
+            {
+              devto && <>
+                <span>•</span>
+                <a href={devto} target="_blank" rel="noopener noreferrer">Read English</a>
+              </>
+            }
+          </div>
         </Details>
 
         <Title>{ title }</Title>
@@ -112,6 +115,32 @@ const Details = styled.div`
     &:first-child {
       margin-left: 0;
     }
+  }
+
+  div {
+    margin-top: 8px;
+
+    span:first-of-type {
+      display: none;
+    }
+
+    a:first-of-type {
+      margin-left: 0;
+    }
+    
+    @media (min-width: 992px) {
+      display: inline-block;
+      margin-top: 0;
+
+      span:first-of-type {
+        display: inline-block;
+      }
+  
+      a:first-of-type {
+        margin-left: 8px;
+      }
+    }
+
   }
 
   a,
