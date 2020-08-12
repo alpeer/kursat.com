@@ -17,11 +17,11 @@ const About = () => (
       <Title t1="Benim" t2="Hakkımda" />
 
       <p>
-        Ben Ömer, { new Date().getFullYear() - 1993 } yaşındayım ve İstanbul"da yaşıyorum. Yazılım mühendisliği mezunuyum.
+        Ben Ömer, { new Date().getFullYear() - 1993 } yaşındayım ve İstanbul'da yaşıyorum. Yazılım mühendisliği mezunuyum.
       </p>
 
       <p>
-        Frontend Developer"ım; <Turkuaz href="https://turkuazcss.com/" target="_blank" rel="noopener noreferrer">Turkuaz Css</Turkuaz> ve <TurkceDokuman href="https://turkcedokuman.com/" target="_blank" rel="noopener noreferrer">Türkçe Doküman</TurkceDokuman>'ın kurucusuyum. Yazılım alanında Türkçe kaynak sayısını arttırmak adına çeviriler yapmaktayım. Çalışmalarımın çoğu açık kaynak, <Link to="projects">projeler</Link> sayfasından yada detaylı olarak <a href="https://github.com/omergulcicek" target="_blank" rel="noopener noreferrer">GitHub</a> profilimden ulaşabilirsiniz.
+        Frontend Developer'ım; <Turkuaz href="https://turkuazcss.com/" target="_blank" rel="noopener noreferrer">Turkuaz Css</Turkuaz> ve <TurkceDokuman href="https://turkcedokuman.com/" target="_blank" rel="noopener noreferrer">Türkçe Doküman</TurkceDokuman>'ın kurucusuyum. Yazılım alanında Türkçe kaynak sayısını arttırmak adına çeviriler yapmaktayım. Çalışmalarımın çoğu açık kaynak, <Link to="projects">projeler</Link> sayfasından yada detaylı olarak <a href="https://github.com/omergulcicek" target="_blank" rel="noopener noreferrer">GitHub</a> profilimden ulaşabilirsiniz.
       </p>
 
       <p>

@@ -35,7 +35,7 @@ module.exports = {
       options: {
         fonts: [
           `limelight`,
-          `inter\:300,400,700`
+          `inter\:300,400,700,900`
         ],
         display: 'swap'
       }

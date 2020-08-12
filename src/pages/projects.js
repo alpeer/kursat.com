@@ -123,7 +123,7 @@ const Project = styled.article`
   margin-right: -32px;
   padding: 16px 32px;
   position: relative;
-  transition: var(--g-transition);
+  transition: background-color var(--g-transition);
 
   &:before {
     background-color: var(--c-theme);
