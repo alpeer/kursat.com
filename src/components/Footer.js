@@ -44,8 +44,7 @@ const Footer = styled.footer`
   svg {
     height: 24px;
     opacity: 0.9;
-    margin: 12px;
-    transition: var(--g-transition);
+    padding: 12px;
 
     &:hover {
       opacity: 1;

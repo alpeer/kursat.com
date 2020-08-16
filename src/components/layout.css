@@ -147,3 +147,43 @@ html[data-theme="light"] .projects article:hover {
 html[data-theme="light"] hr {
   background-color: rgba(0,0,0,0.05)
 }
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes circling {
+  0% {
+    transform: rotate(0deg) translate(-80px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-80px) rotate(-360deg);
+  }
+}
+
+@keyframes circlereverse {
+  0% {
+    transform: rotate(0deg) translate(-275px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg) translate(-275px) rotate(360deg);
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(-50px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
