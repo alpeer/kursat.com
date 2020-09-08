@@ -7,7 +7,7 @@ import Layout from "../components/Layout"
 
 export default function Template({ data }) {
   const post = data.markdownRemark;
-  const { title, date, sources, medium, devto } = post.frontmatter
+  const { title, date, medium } = post.frontmatter
   const { minutes } = post.fields.readingTime
 
   return (
@@ -37,37 +37,12 @@ export default function Template({ data }) {
                 <a href={medium} target="_blank" rel="noopener noreferrer">Medium'da Oku</a>
               </>
             }
-
-            {
-              devto && <>
-                <span>•</span>
-                <a href={devto} target="_blank" rel="noopener noreferrer">Read English</a>
-              </>
-            }
           </div>
         </Details>
 
         <Title>{ title }</Title>
 
         <Content dangerouslySetInnerHTML={{ __html: post.html }} />
-
-        {
-          sources &&
-
-          <Sources>
-          {
-            sources.map(e => 
-              {
-                return (
-                  <li>
-                    { e }
-                  </li>
-                )
-              }
-            )
-          }
-        </Sources>
-        }
 
         <Svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
           <path fill="#C32865" d="M47,-55.5C60.1,-45,69.2,-29.4,72.7,-12.4C76.1,4.6,73.9,23,66.4,40.6C58.9,58.2,46.2,75.1,30.6,78.2C15.1,81.3,-3.4,70.6,-23.3,63.5C-43.2,56.4,-64.5,53,-71.7,41.1C-78.8,29.3,-71.7,8.9,-64.6,-7.9C-57.4,-24.8,-50.3,-38.2,-39.6,-49C-28.8,-59.9,-14.4,-68.2,1.3,-69.7C17,-71.3,33.9,-66,47,-55.5Z" transform="translate(100 100)" />
@@ -84,9 +59,7 @@ export const postQuery = graphql`
         date(formatString: "Do MMMM YYYY", locale: "tr")
         title
         path
-        sources
         medium
-        devto
       }
       fields {
         slug
@@ -196,24 +169,4 @@ const Svg = styled.svg`
   top: -120px;
   width: 80%;
   z-index: -1;
-`
-
-const Sources = styled.ul`
-  border-top: 1px dashed var(--c-text);
-  font-size: 15px;
-  line-height: 2;
-  margin-top: 80px;
-  padding-top: 40px;
-  position: relative;
-
-  &::before {
-    background-color: var(--c-background);
-    content: "Kaynaklar";
-    left: 50%;
-    padding-left: 16px;
-    padding-right: 16px;
-    position: absolute;
-    transform: translateX(-50%) translateY(-50%);
-    top: 0;
-  }
 `

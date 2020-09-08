@@ -96,6 +96,7 @@ const Hero = styled.section`
 
     img {
       margin: 0;
+      user-select: none;
     }
 
     figure {
@@ -111,6 +112,7 @@ const Circle = styled.span`
   opacity: 0.9;
   overflow: hidden;
   position: absolute;
+  user-select: none;
   z-index: 1;
 `
 
@@ -119,6 +121,7 @@ const Rotate = styled.img`
   left: -10px;
   position: absolute;
   top: 320px;
+  user-select: none;
   z-index: 0;
 `
 
