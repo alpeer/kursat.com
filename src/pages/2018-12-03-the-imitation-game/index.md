@@ -15,8 +15,6 @@ Her oyunculuğunda olduğu gibi The Imitation Game adlı filminde de rolüne ken
 ![Benedict Cumberbatch](https://miro.medium.com/proxy/1*ktwKxSkmmmKAblO8ntcUvQ.jpeg)
 </div>
 
-***
-
 ## Enigma Makinesi
 
 <div align="center">
@@ -42,8 +40,6 @@ Tam adıyla Alan Mathison Turing, 1912 yılında doğmuş ve bilgisayar bilimini
 Turing testi, makinenin karşısındaki deneğin görmeden iletişime geçtiği şeyin makine mi yoksa insan mı olduğunu tahmin etmesi esasına dayanıyor. Eğer denek karşısındakinin makine olduğunu anlayamazsa, makinenin bir nevi düşünme yetisine sahip olduğu söylenebilir. Bugün internette sıkça karşımıza çıkan CAPTCHA adı verilen uygulama, internet kullanıcısının insan mı yoksa makine mi olduğunu anlamak amacıyla kullanılıyor, yani Turing’in testi başarıyla sonuçlandı.
 
 Enigmanın şifreleme yöntemini çözen Alan, şantaja maruz kaldığı şikayetiyle polise başvurup, -o yıllarda İngiltere’de yasak olan- eşcinsel olduğunu polise söylüyor. Yargılandıktan sonra 1 sene boyunca kimyasal hadım yada hapis cezasını seçmesi isteniyor. Alan Turing, hayalindeki makineyi tasarlamaya kafasını o kadar takmış durumdaki cezaevine girerse projesini ilerletemeyeceği için kimyasal hadımı tercih ediyor. 1954 yılında, 42. yaş gününe haftalar kala evinde ölü bulunuyor. Yapılan otopsi sonucu elmayı siyanüre batırıp yiyerek intihar ettiği ortaya çıkıyor.
-
-***
 
 ### Film Değerlendirmesi
 

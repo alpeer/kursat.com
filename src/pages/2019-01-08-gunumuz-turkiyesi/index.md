@@ -10,8 +10,6 @@ Sürekli gözlem yapıp, gözlemlerimi değerlendirmeyi severim. Uzun süredir i
 
 Yaptığım bu eleştiriler bu ülkeyi sevmediğimden değil, tam tersi sevdiğimden ötürü yapılmıştır. Kasap sevdiği deriyi yerden yere vururmuş ya o misal. Benimle her konuda olmasa bile çoğu konuda hemfikir olan insanların var olduğunu biliyorum. Bir çok konudan bahsedeceğim için konudan konuda atlayıp, her konu üzerinde az duracağım.
 
-***
-
 ## Bakış Açımız
 
 Bizim millet kadar kendisini küçümseyen, vaktini boşa harcayan, başka ülkelere özenen, her şeye olumsuz bakan başka bir millet var mı acaba. Bu şekilde nasıl ileriye adım atılacak, nasıl gelişecek merak ediyorum. Olumsuzluklar her zaman olur, olacak ve olmalı. Önemli olan bundan ders çıkartıp geleceği çizebilmek. Kötülemek en kolayı ve kimseye bir fayda vermez. Herkes olumsuz eleştiri yaptığı kadar küçücük bir adım atsa şuan her alanda biraz daha ilerideydik.
@@ -19,8 +17,6 @@ Bizim millet kadar kendisini küçümseyen, vaktini boşa harcayan, başka ülke
 Bir site kodladığım zaman çevremde “kötü olmuş, şu site daha iyi, olmamış sil” vb olumsuz eleştiriler geliyor. Aylarca emek verip muhteşem bir üründe çıkartsanız, eksik olan kısmını görüp oradan vurarak küçümsemeye çalışanlar oluyor. Yapıcı olumsuz eleştiri farklı, hiçbir şeyi beğenmeyip eleştirmek farklı. Bu tip insanlardan olabildiğince uzak kalmak gerekir sanırım.
 
 Bir çok kişi direkt “para” odaklı. Kafalarının çalışma mantığı “nasıl zengin olurum”. Meslek seçerken bile “bu meslekte çok para var” diyerek seçenler oluyor. Para odaklı düşündükçe başarının geleceğini düşünmüyorum. Fakat başarı hedeflenir ve gerekli çalışma yapılırsa para mutlaka seni takip edecektir. Herkesin sevdiği alana yönelmesi gerekiyor. Sevmediğim bir alanda 2x para kazanacağıma, sevdiğim işte ömür boyu x ücretle çalışmak isterdim.
-
-***
 
 ## Sevdiğin İşi Yapmak
 
@@ -58,8 +54,6 @@ Oğlum Mernus, sen otobüsü kaçırmış bir milletin çocuğusun.”*
 
 Aziz Sancar’ımızın dediği gibi, *“Çalışmaya inanıyorum.”*
 
-***
-
 ## Eğitim
 
 İnsanların yararlı içeriklere ulaşmasının en büyük engelini televizyon olarak görüyorum. Geçenlerde yayınlanan ve maalesef doğru olduğunu düşündüğüm bir haber; en çok yalan haber yapılan ülke Türkiye, rakam ise %49. O kadar çok boş program, dizi, reklamlar var ki. 2 haberden birisi yalan. Fakat millet gördüğü haberin kaynağını araştırmadan, anında inanarak bunu yaymayı tercih ediyor. Araştırma kültüründen çok uzağız.
@@ -77,11 +71,7 @@ Ardından eğitim sistemine köklü bir değişiklik ile saçma sapan dersler ve
 
 Çok şükür ki Ziya Selçuk hocamız eğitim bakanımız oldu. Ziya hocamız sayesinde bende en az herkes kadar bir şeylerin düzeleceğini düşünüyorum. İnşallah yanılmayız.
 
-***
-
 Hazır eğitime, kişisel gelişime, medyaya el atmışken hızımı alamayıp spor, tarih gibi çeşitli konularda da fikirlerimi aktarayım. Bilmişlik taslamak haddime değil, sadece düşüncelerimi aktarıyorum.
-
-***
 
 ## Tarih
 
@@ -97,8 +87,6 @@ Gerçi biliyoruz dediğim tarihi ne kadar bildiğimizde meçhul. Geçmişini bil
 > 
 > İlber Ortaylı
 
-***
-
 ## Spor
 
 Ülkede spor, futbol olarak biliniyor. Hadi onda bari başarılı olsak neyse ama ne yazık ki rezalet bir gidişat söz konusu. Ne taraftar olmayı başarabiliyoruz, ne yorumcu, ne iyi bir futbol, ne iyi bir alt yapı, ne iyi bir yönetim. Milli takım olarak bir kaç başarımız dışında hiçbir başarımız yok, turnuvalara katılmayı bile başaramıyoruz. Bir derbi çıkışında taraftarlar birbirini öldürebiliyor. Bir maç sırasında 90 dk durmaksızın ana avrat küfür edilebiliyor. En sevdiğimiz sporda bile durumumuz maalesef bu.
@@ -109,8 +97,6 @@ Farklı spor alanlarına da halk çekilmeli ve her alanda adımızdan söz ettir
 
 ![Ülkece “spora” verdiğimiz değeri gösteren üzücü bir fotoğraf](https://miro.medium.com/max/640/1*-D_V64LlRN9fQ_6HpTY0Cg.jpeg)
 </div>
-
-***
 
 ## Müzik
 
@@ -123,8 +109,6 @@ Nereye çekerseniz oraya gidecek bir söz ekliyorum;
 > *"Bu milletin yüzde 60'ı aptaldır."*
 > 
 > Aziz Nesin
-
-***
 
 ## Oyuncu, Şarkıcı ve Yazar
 
