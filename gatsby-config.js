@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/",
   siteMetadata: {
     title: `Ömer Gülçiçek`,
     siteUrl: "http://omergulcicek.com",
@@ -7,6 +6,13 @@ module.exports = {
     author: `@omergulcicek`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        displayName: false,
+        ssr: true,
+      },
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -18,29 +24,24 @@ module.exports = {
               maxWidth: 800,
               linkImagesToOriginal: false,
               sizeByPixelDensity: true,
-              showCaptions: true
-            }
+              showCaptions: true,
+            },
           },
-        ]
-      }
+        ],
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [
-          `gatsby-remark-reading-time`,
-        ],
+        plugins: [`gatsby-remark-reading-time`],
       },
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `limelight`,
-          `inter\:300,400,700,900`
-        ],
-        display: 'swap'
-      }
+        fonts: [`limelight`, `inter\:300,400,700,900`],
+        display: "swap",
+      },
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
@@ -65,10 +66,10 @@ module.exports = {
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
-        start_url: `/`,
+        start_url: `.`,
         background_color: `#663399`,
         theme_color: `#663399`,
-        display: `minimal-ui`
+        display: `minimal-ui`,
       },
     },
   ],
