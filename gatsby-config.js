@@ -1,6 +1,8 @@
 module.exports = {
+  pathPrefix: "/",
   siteMetadata: {
     title: `Ömer Gülçiçek`,
+    siteUrl: "http://omergulcicek.com",
     description: `Hayallerimin ve hedeflerimin arkasından koşmaya devam edeceğim. Sevdiğim işi yapıyorum, bu sayede hayatımın sonuna kadar bir gün bile çalışmam gerekmiyor; tutkunuzu bulun ve işiniz iş olmaktan çıksın.`,
     author: `@omergulcicek`,
   },
