@@ -87,7 +87,7 @@ export function getProjects(projects) {
   let blog = []
 
   projects !== null &&
-  projects.map(({ link, resim, baslik, aciklama }, i) => {
+  projects.map(({ link, resim, baslik, aciklama }, i) =>
     blog.push(
     <A href={link} target="_blank" rel="noopener noreferrer" key={i}>
       <Project>
@@ -103,7 +103,7 @@ export function getProjects(projects) {
       </Project>
     </A>
     )
-  })
+  )
 
   return blog
 }

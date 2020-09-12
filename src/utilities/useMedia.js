@@ -5,15 +5,10 @@ import { useEffect, useState } from "react"
 export default function useMedia(queries, defaultValue) {
   const [value, setValue] = useState(defaultValue)
 
-  const getValue = () => {
-    const query = queries[0]
-    return query ? queries[0] : defaultValue
-  }
-
   useEffect(() => {
-    setValue(getValue)
+    setValue(queries[0] ? queries[0] : defaultValue)
     return () => setValue()
-  }, [])
+  })
 
   return value
 }
