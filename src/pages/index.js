@@ -7,10 +7,7 @@ import Layout from "../components/Layout"
 
 const Home = () => (
   <Layout>
-    <Helmet
-      title="Ana Sayfa"
-      titleTemplate="%s | Ömer Gülçiçek"
-    />
+    <Helmet title="Ana Sayfa" titleTemplate="%s | Ömer Gülçiçek" />
 
     <Hero>
       <aside>
@@ -20,12 +17,14 @@ const Home = () => (
       </aside>
 
       <aside>
-        <Rotate src="https://omergulcicek.com/img/square.png" alt="Square Animation" />
+        <Rotate
+          src="https://omergulcicek.com/img/square.png"
+          alt="Square Animation"
+        />
         <Circle1 />
         <Circle2 />
         <Circle3 />
-        <figure>
-        </figure>
+        <figure></figure>
       </aside>
     </Hero>
 
@@ -36,7 +35,12 @@ const Home = () => (
       <Button href="mailto:iletisim@omergulcicek.com">
         <span>iletisim@omergulcicek.com</span>
 
-        <svg width="14" height="10"><g stroke="currentColor" fill="none" fillRule="evenodd"><path d="M8.5.964L13.036 5.5 8.5 10.036"></path><path d="M12.5 5.5H.5" strokeLinecap="square"></path></g></svg>
+        <svg width="14" height="10">
+          <g stroke="currentColor" fill="none" fillRule="evenodd">
+            <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
+            <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
+          </g>
+        </svg>
       </Button>
     </GetInTouch>
   </Layout>
@@ -98,7 +102,7 @@ const Hero = styled.section`
     &:nth-child(2) {
       display: none;
       transform: translateY(-80px);
-    
+
       @media (min-width: 992px) {
         display: inline-block;
       }
