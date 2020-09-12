@@ -86,12 +86,22 @@ const Hero = styled.section`
   }
 
   aside {
-    display: inline-block;
     position: relative;
-    width: 50%;
+    text-align: center;
+    width: 100%;
+
+    @media (min-width: 992px) {
+      text-align: left;
+      width: 50%;
+    }
 
     &:nth-child(2) {
+      display: none;
       transform: translateY(-80px);
+    
+      @media (min-width: 992px) {
+        display: inline-block;
+      }
     }
 
     img {
